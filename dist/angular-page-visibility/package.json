@@ -1,0 +1,59 @@
+{
+  "name": "angular-page-visibility",
+  "version": "6.1.4",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivierlsc/angular-page-visibility.git"
+  },
+  "author": "Olivier LIN-SI-CHENG",
+  "bugs": {
+    "url": "https://github.com/olivierlsc/angular-page-visibility/issues"
+  },
+  "homepage": "https://github.com/olivierlsc/angular-page-visibility#readme",
+  "keywords": [
+    "angular4",
+    "angular5",
+    "angular6",
+    "angular7",
+    "ng4",
+    "ng5",
+    "ng6",
+    "ng7",
+    "angular4 component",
+    "angular5 component",
+    "angular6 component",
+    "angular7 component",
+    "angular4 directive",
+    "angular5 directive",
+    "angular6 directive",
+    "angular7 directive",
+    "angular4 service",
+    "angular5 service",
+    "angular6 service",
+    "angular7 service",
+    "page visibility",
+    "page not visibility",
+    "page visibility api",
+    "page active",
+    "page not active"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^7.2.12",
+    "@angular/core": "^7.2.12",
+    "rxjs": "^6.4.0"
+  },
+  "main": "bundles/angular-page-visibility.umd.js",
+  "module": "fesm5/angular-page-visibility.js",
+  "es2015": "fesm2015/angular-page-visibility.js",
+  "esm5": "esm5/angular-page-visibility.js",
+  "esm2015": "esm2015/angular-page-visibility.js",
+  "fesm5": "fesm5/angular-page-visibility.js",
+  "fesm2015": "fesm2015/angular-page-visibility.js",
+  "typings": "angular-page-visibility.d.ts",
+  "metadata": "angular-page-visibility.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
