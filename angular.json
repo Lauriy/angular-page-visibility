@@ -147,9 +147,9 @@
           },
           "configurations": {
             "production": {
-              "project": "projects/angular-page-visibility-lib/ng-package.prod.json"
-            ,              "tsConfig": "projects/angular-page-visibility-lib/tsconfig.lib.prod.json"
-}
+              "project": "projects/angular-page-visibility-lib/ng-package.prod.json",
+              "tsConfig": "projects/angular-page-visibility-lib/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -175,5 +175,8 @@
       }
     }
   },
-  "defaultProject": "angular-page-visibility-app"
+  "defaultProject": "angular-page-visibility-app",
+  "cli": {
+    "analytics": "214fa764-8eb7-4301-97a0-56ed9ad73c06"
+  }
 }

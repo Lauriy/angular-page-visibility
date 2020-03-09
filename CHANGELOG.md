@@ -1,3 +1,18 @@
+<a name="6.1.6"></a>
+# [6.1.6] (2020-03-09)
+
+## Features
+
+* **Migrate to Angular 9**: https://github.com/olivierlsc/angular-page-visibility/pull/14
+
+
+<a name="6.1.5"></a>
+# [6.1.5] (2019-09-11)
+
+## Features
+
+* **Migrate to Angular 8**
+
 <a name="6.1.4"></a>
 # [6.1.4] (2019-04-10)
 
