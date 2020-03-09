@@ -10,13 +10,14 @@
       "prefix": "app",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "less"
+          "style": "less"
         }
       },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/angular-page-visibility-app",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -33,6 +34,12 @@
           },
           "configurations": {
             "production": {
+              "budgets": [
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -140,7 +147,8 @@
           },
           "configurations": {
             "production": {
-              "project": "projects/angular-page-visibility-lib/ng-package.prod.json"
+              "project": "projects/angular-page-visibility-lib/ng-package.prod.json",
+              "tsConfig": "projects/angular-page-visibility-lib/tsconfig.lib.prod.json"
             }
           }
         },
@@ -167,5 +175,8 @@
       }
     }
   },
-  "defaultProject": "angular-page-visibility-app"
+  "defaultProject": "angular-page-visibility-app",
+  "cli": {
+    "analytics": "214fa764-8eb7-4301-97a0-56ed9ad73c06"
+  }
 }
